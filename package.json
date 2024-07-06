@@ -1,6 +1,6 @@
 {
   "name": "mws-api-updated",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Amazon Marketplace Web Services API client",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,12 @@
   "devDependencies": {
     "chai": "^4.4.1",
     "mocha": "^10.6.0"
+  },
+  "overrides": {
+    "postman-request": {
+      ".": "^2.88.1-postman.34",
+      "har-validator": "npm:@hola.org/har-validator@2.0.6-hola.2"
+    }
   },
   "bugs": {
     "url": "https://github.com/slitsevych/mws-api/issues"
